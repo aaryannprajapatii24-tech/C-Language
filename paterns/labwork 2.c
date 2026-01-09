@@ -1,13 +1,11 @@
 #include<stdio.h>
-#include<conio.h>
-
-
+#include<stdio.h>
 int main(){
 	
 	int i,j;
 	
-	for(i=1; i<=5; i++){
-		for(j=1; j<=i; j++){
+	for(i=5; i>=1; i--){
+		for(j=i; j<=5; j++){
 			printf("%d",j);
 		}
 		printf("\n");
@@ -17,8 +15,8 @@ int main(){
 
 //output:
 
-//1
-//12
-//123
-//1234
+//5
+//45
+//345
+//2345
 //12345
